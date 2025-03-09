@@ -10,7 +10,7 @@ const usersName = users.map(user => user.name)
 console.log("3.1 "+"---".repeat(20))
 console.log(usersName)
 
-/* /* 3.2 Dado el siguiente array, devuelve una lista que contenga los valores 
+/* 3.2 Dado el siguiente array, devuelve una lista que contenga los valores 
 de la propiedad .name y cambia el nombre a 'Anacleto' en caso de que 
 empiece por 'A'. */
 const nameListStartsWithA = users.map(user => user.name.startsWith("A") ? "Anacleto" : user.name)
